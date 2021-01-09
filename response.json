@@ -1,0 +1,8 @@
+	{"coord":{"lon":-81.7,"lat":41.5},"weather":[{"id":804,"main":"Clouds","description":"overcast"
+
+	{"clouds","icon":"04n"}],
+	"base":"stations",
+	"main":{"temp":29.98,"feels_like":23,"temp_min":28,"temp_max":32,"pressure":1026,"humidity":63},
+	"visibility":10000,"wind":{"speed":3.36,"deg":320},
+	"clouds":{"all":90},"dt":1609454844,"sys":{"type":1,"id":3646,"country":"US","sunrise":1609419190,"sunset":1609452398},
+"timezone":-18000,"id":5150529,"name":"Cleveland","cod":200}

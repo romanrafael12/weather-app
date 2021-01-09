@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OpenWeatherMap Api</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    
+
+
+
+<div class="texto">
+<h2><p>Weather Website</p></h2>
+</div>
+ 
+      
+
+<div class="center">
+
+  
+
+  
+
+
+
+
+  <div class="input"  >
+      <input type="text" id= "name_input"  onfocus="this.value=''"  placeholder="Enter the city" class="inputtext">
+
+
+    <input type="submit" value="Submit" id= "enter" class="submit"> 
+        
+  
+
+
+
+       <div  class="text">
+      
+  
+      <div ><br>
+      <p class="name"  id = "wrong"></p>
+      
+      
+      <p class="img"></p>
+      
+      <p class ="name"> </p>
+
+  
+      <p class="temp"></p>
+
+     
+      <p class="clouds"></p>
+
+      <p class="desc"></p>
+ 
+      <p class="maxima"></p>
+     
+      <p class="minima"></p>
+      
+      <p class="error"></p>
+   
+      
+</div>
+
+</div>
+
+
+
+  <div >
+
+   </div>
+    
+
+
+
+
+      
+      
+
+
+</body>
+
+
+
+
+<script>
+var input = document.getElementById("name_input");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("enter").click();
+  }
+});
+</script>
+
+
+<script src="app.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</html>
